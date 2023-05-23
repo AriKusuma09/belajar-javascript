@@ -1,0 +1,54 @@
+OPERATOR ARITMATIKA
+
+Operator                Keterangan
+    +                   Pertambahan
+    -                   Pengurangan
+    *                   Perkalian
+    **                  Exponensial
+    /                   Pembagian
+    %                   Sisa Bagi
+
+
+
+OPERATOR AUGMENTED ASSIGNMENT
+
+Operator Aritmatika             Operator Augmented Assignment
+result = result + 10                    result += 10
+result = result - 10                    result -= 10
+result = result * 10                    result *= 10
+result = result ** 10                   result **= 10
+result = result / 10                    result /= 10
+result = result % 10                    result %= 10
+
+
+
+OPERATOR UNARY
+
+Operator                Keterangan
+    +                   Menandakan nilai positif
+    -                   Menandakan nilai negatif
+    ++                  Increment, menaikkan 1 angka
+    --                  Decrement, menurunkan 1 angka
+
+
+
+OPERATOR PERBANDINGAN
+
+Operator                Keterangan
+    >                   Lebih Dari
+    <                   Kurang Dari
+    >=                  Lebih Dari Sama Dengan
+    <=                  Kurang Dari Sama Dengan
+    ==                  Sama Dengan
+    ===                 Sama dengan dan Sama Tipe
+    !=                  Tidak Sama Dengan
+    !==                 Tidak Sama Dengan dan Tidak Sama Tipe
+
+
+
+OPERATOR LOGIKA
+
+Operator                Keterangan
+    &&                      dan
+    ||                      atau
+    !                   kebalikan

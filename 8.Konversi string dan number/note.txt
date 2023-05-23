@@ -1,0 +1,18 @@
+Saat membuat aplikasi, kadang kita input dari pengguna selalu dalam bentuk string.
+Sedangkan kita ingin mengelola datanya dalam bentuk Number.
+Maka sangat disarankan untuk melakukan konversi tipe data.
+
+
+MELAKUKAN KONVERSI STRING DAN NUMBER
+
+Function                    Keterangan
+parseint(string)            Mengkonversi dari string ke number(bilangan bulat)
+parsefloat(string)          Mengkonversi dari string ke number(bilangan pecahan)
+Number(string)              Mengkonversi dari string ke number(bilangan bulat atau bilangan pecahan)
+number.toString(string)     Mengkonversi dari number ke string
+
+
+Jika data string yang kita coba lakukan konversi bukanlah data valid, maka hasil konversi
+tersebut adalah NaN (Not a Number).
+NaN adalah number spesial yang menyebutkan bahwa ini bukanlah number.
+Jika NaN dioperasikan dengan data number lainnya, maka hasilnya akan menjadi NaN lagi.

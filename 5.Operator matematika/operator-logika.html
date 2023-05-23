@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+<body>
+    
+    <script>
+
+        // Penggunaan &&
+        const nilaiUjian = 75;
+        const nilaiAbsensi = 78;
+
+        const lulusUjian = nilaiUjian > 75;
+        const lulusAbsensi = nilaiAbsensi > 75;
+
+        const lulus = lulusUjian && lulusAbsensi;
+        document.writeln("<p>" + lulus + "</p>");
+
+        // Penggunaan ||
+        const nilaiUAS = 75;
+        const nilaiUlangan = 78;
+
+        const lulusUAS = nilaiUAS > 75;
+        const lulusUlangan = nilaiUlangan > 75;
+
+        const remedial = lulusUAS || lulusUlangan;
+        document.writeln("<p>" + remedial + "</p>");
+
+        // Penggunaan !
+        const nilaiUlanganHarian = 80;
+
+        const tidakRemedial = nilaiUlanganHarian > 75;
+
+        const remedi = !tidakRemedial;
+        document.writeln("<p>" + remedi + '</p>');
+
+    </script>
+
+</body>
+</html>
