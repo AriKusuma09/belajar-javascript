@@ -1,0 +1,17 @@
+ASSOCIATIVE ARRAY
+
+Di bahasa pemrograman lain seperti PHP, kita bisa menggunakan index berupa tipe data
+lain selain number, misalnya string.
+Fitur ini biasanya disebut associative array atau hash.
+Di JavaScript associative array tidak didukung.
+Jika kita memaksa data bukan number di index array, maka JavaScript akan merubah tipe data
+array tersebut menjadi object, dan ini bisa berbahaya, karena beberapa operasi di array
+mungkin bisa berubah hasilnya.
+
+
+
+TIPE DATA OBJECT 
+
+Tipe data object adalah tipe data yang mirip dengan tipe data array.
+Yang membedakan adlaah index pada tipe data object bisa menggunakan string.
+Index di object biasanya disebut attributes atau properties, bukan index.

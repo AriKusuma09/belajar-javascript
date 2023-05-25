@@ -1,0 +1,3 @@
+Nullish value adalah null dan undefined.
+Nullish coalescing operator (??) adalah operator mirip dengan ternary operator, yang membedakan
+adalah pada kondisi, jika bernilai null atau undefined, baru value defaultnya diambil.

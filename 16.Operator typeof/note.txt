@@ -1,0 +1,17 @@
+Typeof merupakan operator yang bisa kita gunakan untuk melihat tipe data sebuah
+value atau variable.
+Karena JavaScript merupakan dynamic language, jadi kadang kita perlu mengecek tipe data
+sebuah value atau variable menggunkana operator typeof.
+Hasil dari operator typeof adalah string tipe datanya.
+
+
+TYPE                    HASIL OPERATOR TYPEOF
+Undefined                   "undefined"
+Null                        "object"
+Boolean                     "boolean"
+Number                      "number"
+BigInt                      "bigint"
+String                      "string"
+Symbol                      "symbol"
+Function                    "function"
+Lainnya                     "object"

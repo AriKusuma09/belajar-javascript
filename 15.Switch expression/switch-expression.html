@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Expression</title>
+</head>
+<body>
+    
+    <script>
+
+        let nilai = "D";
+
+        switch(nilai) {
+            case "A" :
+                document.writeln('<p>Anda lulus dengan nilai yang tinggi!</p>');
+                break;
+            case "B" :
+            case "C" :
+                document.writeln('<p>Anda lulus!</p>');
+                break;
+            case "D" :
+                document.writeln('<p>Anda dinyatakan tidak lulus!</p>');
+                break;
+            default :
+                document.writeln('<p>Anda tidak mengikutin penilaian!</p>');
+        }
+
+    </script>
+
+</body>
+</html>

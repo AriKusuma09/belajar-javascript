@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+    
+    <script>
+
+        let arrayKosong = []; // array kosong
+
+        let arrayNamaHewan = ['Anjing', 'Kucing', 'Harimau', 'Singa', 'Hiu']; // array yang berisi data
+
+        // Cara menambah data ke array
+        const namaHewan = [];
+        namaHewan.push('Anjing', 'Kucing', 'Harimau');
+        namaHewan.push('Hiu');
+        
+        console.table(namaHewan);
+        
+        // Mengubah data array berdasarkan index
+        namaHewan['0'] = 'Serigala';
+
+        console.table(namaHewan);
+
+        // Mengecek panjang data array
+        console.info(namaHewan, length);
+
+        console.info(namaHewan[2]);
+        console.info(namaHewan[3]);
+
+        // Menghapus data array
+        delete namaHewan['0'];
+
+        console.table(namaHewan);
+
+        namaHewan[0] = "Laba-laba";
+
+        console.table(namaHewan);
+
+        namaHewan.push(1,2,3,4,5);
+
+        console.table(namaHewan);
+
+        // Memasukan array ke dalam array
+        namaHewan.push(['ikan kerapu', 'ikan sapu-sapu', 'ikan paus']);
+
+        console.table(namaHewan);
+
+    </script>
+
+</body>
+</html>

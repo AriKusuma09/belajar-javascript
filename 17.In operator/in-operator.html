@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Operator</title>
+</head>
+<body>
+
+    <script>
+
+        let person = {
+            firstName: "Ari",
+            MiddleName: "Kusuma"
+        };
+
+        if ("firstName" in person) {
+            document.writeln(`<p>${person.firstName}</p>`)
+        } else {
+            document.writeln('<p>Tidak ada!</p>');
+        }
+        
+        let result = "firstName" in person; // true
+        document.writeln(`<p>${result}</p>`); 
+
+
+        // walaupun nilai property atau indexnya undefined atau null, maka akan tetap dianggap ada.
+        let nama = {
+            namaDepan: "Arik",
+            namaBelakang: undefined
+        };
+
+        let hasil = "namaBelakang" in nama; // true
+        document.writeln(`<p>${nama.namaBelakang}</p>`);
+
+        let names = [null, null, 'Wardana'];
+        let results = 0 in names; // true
+        document.writeln(`<p>${results}</p>`);
+        
+
+    </script>
+
+</body>
+</html>
